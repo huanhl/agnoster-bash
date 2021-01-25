@@ -40,11 +40,15 @@ git clone https://github.com/speedenator/agnoster-bash.git .bash/themes/agnoster
 then add the following to your .bashrc:
 
 ```
-export THEME=$HOME/.bash/themes/agnoster-bash/agnoster.bash
-if [[ -f $THEME ]]; then
-    export DEFAULT_USER=`whoami`
-    source $THEME
-fi
+# Do't show username and hostname on left side.
+#export THEME=$HOME/.bash/themes/agnoster-bash/agnoster.bash
+#if [[ -f $THEME ]]; then
+#    export DEFAULT_USER=`whoami`
+#    source $THEME
+#fi
+
+# Show username and host name on left side.
+source $HOME/.bash/themes/agnoster-bash/agnoster.bash
 ```
 
 # Goals
