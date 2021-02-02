@@ -35,7 +35,7 @@ I recommend the following:
 ```
 cd $HOME
 mkdir -p .bash/themes/agnoster-bash
-git clone https://github.com/speedenator/agnoster-bash.git .bash/themes/agnoster-bash
+git clone https://github.com/huanhl/agnoster-bash.git .bash/themes/agnoster-bash
 ```
 
 then add the following to your .bashrc:
